@@ -1,1 +1,8 @@
-Applescript to filter mailing lists into imap folders.
+# Applescript to filter mailing lists into imap folders.
+
+Make a Apple Mail filter that matches on List-Id header. I use
+"List-Id" "Does not contain" "NO MATCH", as Apple Mail does not
+support checking for Header.  I *think* this only matches on mail with
+this header set...
+
+Choose "Run AppleScript" and this script as target.
